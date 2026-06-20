@@ -1,0 +1,20 @@
+# Backend patterns
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/**/*.egg-info/
+backend/.pytest_cache/
+backend/local.db
+
+# Frontend patterns
+frontend/laundry_ms/node_modules/
+frontend/laundry_ms/dist/
+frontend/laundry_ms/.env
+frontend/laundry_ms/*.local
+
+# Global pattern ignores
+.vscode/
+.idea/
+.DS_Store
+*.log
